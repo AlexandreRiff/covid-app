@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:isScrollContainer="true"
+        android:orientation="vertical">
+
+        <ListView
+            android:id="@+id/listVaccine"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"></ListView>
+
+        <LinearLayout
+            android:id="@+id/layoutNoResults"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textViewNoResults"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center|center_horizontal|center_vertical"
+                android:padding="8dp"
+                android:text="@string/textViewNoResults"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                app:srcCompat="@drawable/ic_search_off" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/openVaccineRegisterScreen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="32dp"
+        android:clickable="true"
+        android:contentDescription="Botão para adicionar vacina"
+        android:focusable="true"
+        android:onClick="openRegisterVaccineScreen"
+        app:backgroundTint="@color/purple_500"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/ic_add" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

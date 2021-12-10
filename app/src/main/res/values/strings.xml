@@ -1,0 +1,58 @@
+<resources>
+    <string name="app_name">Covid App</string>
+
+    <string name="tag_time_picker">Preferências</string>
+
+    <!-- Screen titles -->
+    <string name="titleRegisterUserActivity">Cadastro de Usuário</string>
+    <string name="titleRegisterSymptonActivity">Monitorar</string>
+    <string name="titleListVaccineActivity">Vacinas</string>
+    <string name="titleRegisterVaccineActivity">Vacinas</string>
+    <string name="titleListSymptonActivity">Histórico</string>
+    <string name="titleSettingsActivity">Preferências</string>
+
+    <!-- Login Screen -->
+    <string name="loginEmail">Email</string>
+    <string name="loginPassword">Senha</string>
+    <string name="loginSignIn">Entrar</string>
+    <string name="openRegisterUserScreen">Não possui cadastro? cadastre-se aqui</string>
+
+    <!-- Register User Screen -->
+    <string name="registerUserName">Nome Completo</string>
+    <string name="registerUserEmail">Email</string>
+    <string name="registerUserPassword">Senha</string>
+    <string name="registerUserRepeatPassword">Repetir Senha</string>
+    <string name="RegisterUserSave">Salvar</string>
+
+    <!-- Home Screen -->
+    <string name="openSymptonScreen">Monitorar</string>
+    <string name="openVaccineScreen">Vacinas</string>
+    <string name="openHistoryScreen">Histórico</string>
+    <string name="openPreferencesScreen">Preferências</string>
+
+    <!-- Register Sympton Screen -->
+    <string name="registerSymptonFever">Febre</string>
+    <string name="registerSymptonCough">Tosse</string>
+    <string name="registerSymptonFatigue">Fadiga</string>
+    <string name="registerSymptonDifficultyBreathing">Dificuldade para respirar</string>
+    <string name="registerSymptonSoreThroat">Dor de garganta</string>
+    <string name="registerSymptonHeadache">Dor de cabeça</string>
+    <string name="registerSymptonDiarrhea">Diarréia</string>
+    <string name="registerSymptonLossOfSmell">Perda de olfato</string>
+    <string name="registerSymptonLossOfTaste">Perda de paladar</string>
+    <string name="registerSymptonNoSymptoms">Nenhum sintoma</string>
+    <string name="registerSymptonSave">Enviar</string>
+
+    <!-- List Vaccine Screen | List Sympton Screen -->
+    <string name="textViewNoResults">Sem resultados.</string>
+
+    <!-- Register Vaccine Screen -->
+    <string name="registerVaccineDose1">1° Dose</string>
+    <string name="registerVaccineDose2">2° Dose</string>
+    <string name="registerVaccineDose3">3° Dose</string>
+    <string name="registerVaccineType">Selecione o tipo</string>
+    <string name="registerVaccineDate">Seleciona a data</string>
+    <string name="registerVaccineSave">Salvar</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+
+</resources>

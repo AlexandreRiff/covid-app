@@ -1,0 +1,13 @@
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto">
+
+        <SwitchPreferenceCompat
+            app:key="enableDisableNotifications"
+            app:title="Habilitar notificações"/>
+
+        <Preference
+            app:dependency="enableDisableNotifications"
+            app:key="set_time"
+            app:title="Escolha o horário de lembrete diário"
+            app:summary=""/>
+
+</PreferenceScreen>

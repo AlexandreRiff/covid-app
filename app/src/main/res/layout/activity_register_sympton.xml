@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center|center_horizontal|center_vertical"
+    android:isScrollContainer="true"
+    android:orientation="vertical"
+    android:padding="0dp"
+    android:paddingStart="32dp"
+    android:paddingTop="0dp"
+    android:paddingEnd="32dp"
+    android:paddingBottom="0dp"
+    android:scrollbars="horizontal">
+
+    <CheckBox
+        android:id="@+id/registerSymptonFever"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/registerSymptonFever"
+        android:textSize="16sp" />
+
+    <CheckBox
+        android:id="@+id/registerSymptonCough"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/registerSymptonCough"
+        android:textSize="16sp" />
+
+    <CheckBox
+        android:id="@+id/registerSymptonFatigue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/registerSymptonFatigue"
+        android:textSize="16sp" />
+
+    <CheckBox
+        android:id="@+id/registerSymptonDifficultyBreathing"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/registerSymptonDifficultyBreathing"
+        android:textSize="16sp" />
+
+    <CheckBox
+        android:id="@+id/registerSymptonSoreThroat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/registerSymptonSoreThroat"
+        android:textSize="16sp" />
+
+    <CheckBox
+        android:id="@+id/registerSymptonHeadache"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/registerSymptonHeadache"
+        android:textSize="16sp" />
+
+    <CheckBox
+        android:id="@+id/registerSymptonDiarrhea"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/registerSymptonDiarrhea"
+        android:textSize="16sp" />
+
+    <CheckBox
+        android:id="@+id/registerSymptonLossOfSmell"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/registerSymptonLossOfSmell"
+        android:textSize="16sp" />
+
+    <CheckBox
+        android:id="@+id/registerSymptonLossOfTaste"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/registerSymptonLossOfTaste"
+        android:textSize="16sp" />
+
+    <CheckBox
+        android:id="@+id/registerSymptonNoSymptoms"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/registerSymptonNoSymptoms"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/registerSymptonSave"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:height="60dp"
+        android:onClick="saveSympton"
+        android:text="@string/registerSymptonSave"
+        android:textAllCaps="true"
+        android:textSize="16sp" />
+
+</LinearLayout>
